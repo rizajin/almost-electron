@@ -1,13 +1,25 @@
 # ALMOST ELECTRONJS but NOT!
-This repo will contain a poc for somekind of a fw&app that resembles Electron.  
+This repo contains a poc of somekind which is 'fw&app' that resembles Electron.  
 
-## What it will not be
+## What it is not
 Fully featured  
 Bug free (;D)
 
 ## Description of the project
-Will use CMake as build system/generator  
-Will have NodeJS and required components  
-Will be using C++ Library(premade?) containing some sample stuff  
-Most likely 'windows' only implementation  
-Should be using javascript as a client app  
+CMake as build system/generator with npm  
+NodeJS NAPI  
+Uses C++ Library containing some sample stuff  
+'Windows' only implementation  
+Uses javascript as a 'client'  
+
+![Screenie](./aScreenie.jpg)  
+
+## How to run
+npm install  
+node js-src/index.js  
+
+## Whats next
+Will add somekind of window, I guess..  
+
+## Development?
+I used Visual Studio 2022 for the native parts and VS Code for javascript  
