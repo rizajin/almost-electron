@@ -14,12 +14,14 @@ Uses javascript as a 'client'
 
 ![Screenie](./aScreenie.jpg)  
 
+[![Check the video](http://img.youtube.com/vi/YRh14egOPgA/0.jpg)](https://youtu.be/YRh14egOPgA "Check the video")  
+
 ## How to run
 npm install  
 node js-src/index.js  
 
 ## Whats next
-Will add somekind of window, I guess..  
+Interface with JS?  
 
 ## Development?
 I used Visual Studio 2022 for the native parts and VS Code for javascript  
