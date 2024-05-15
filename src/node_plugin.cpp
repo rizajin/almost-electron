@@ -17,9 +17,16 @@ Napi::Number TestWrapper(const Napi::CallbackInfo& info)
     return returnValue;
 }
 
+void WindowWrapper(const Napi::CallbackInfo& info)
+{
+    // TODO: error handling.. for now, just, 
+    Window();
+}
+
 Napi::Object Init(Napi::Env env, Napi::Object exports)
 {
     exports.Set(Napi::String::New(env, "test"), Napi::Function::New(env, TestWrapper));
+    exports.Set(Napi::String::New(env, "window"), Napi::Function::New(env, WindowWrapper));
     return exports;
 }
 
