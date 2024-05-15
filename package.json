@@ -1,5 +1,12 @@
 {
     "name": "AlmostElectron",
     "version": "0.0.1",
-    "main": "js-src/index.js"
+    "main": "js-src/index.js",
+    "scripts": {
+        "install": "cmake-js compile"
+    },
+    "dependencies": {
+        "cmake-js": "^7.3.0",
+        "node-addon-api": "7.0.0"
+    }
 }
